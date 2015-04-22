@@ -1,14 +1,7 @@
 @import 'vars';
 @import 'mixins';
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-$size-wrapper-pad-tb: 3em;
-$size-wrapper-pad-lr: 1.25em;
+/* skel-baseline v2.0.3 | (c) n33 | getskel.com | MIT licensed */
 
 /* Basic */
 
@@ -27,8 +20,8 @@ $size-wrapper-pad-lr: 1.25em;
 			margin: 0 0 $size-element-margin 0;
 
 			li {
-				display: block;
 				padding: ($size-element-margin * 0.5) 0 0 0;
+				display: block;
 				text-align: center;
 				width: 100%;
 
@@ -37,8 +30,14 @@ $size-wrapper-pad-lr: 1.25em;
 				}
 
 				> * {
-					margin: 0 !important;
 					width: 100%;
+					margin: 0 !important;
+
+					&.icon {
+						&:before {
+							margin-left: -2em;
+						}
+					}
 				}
 			}
 
@@ -63,45 +62,8 @@ $size-wrapper-pad-lr: 1.25em;
 		padding: 0;
 	}
 
-/* Spotlight */
-
-	.spotlight {
-		.image.main {
-			max-height: 50vh;
-		}
-
-		.content {
-			padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - $size-element-margin) $size-wrapper-pad-lr !important;
-		}
-	}
-
-/* Wrapper */
-
-	.wrapper {
-		padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - $size-element-margin) $size-wrapper-pad-lr;
-	}
-
 /* Banner */
 
 	#banner {
-		.content {
-			padding: $size-wrapper-pad-tb ($size-wrapper-pad-lr * 1.25) ($size-wrapper-pad-tb * 1.75) ($size-wrapper-pad-lr * 1.25);
-		}
-	}
-
-/* Footer */
-
-	#footer {
-		padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
-
-		.copyright {
-			line-height: inherit;
-
-			li {
-				border-left: 0;
-				display: block;
-				margin: 0;
-				padding: 0;
-			}
-		}
+		padding: 5em 2em 4em 2em;
 	}

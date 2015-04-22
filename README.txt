@@ -1,36 +1,37 @@
-Landed by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Baseline
 
+A simple Skel-powered boilerplate for new projects. Built on Skel, Layers, and Sass.
 
-A dark, slick, modern, responsive, adjective-drenched design built around an extremely
-dynamic landing page (scroll that mofo!). Inspired by Big Picture, another design
-of mine with a similarish feel/flow, only this time I took it waaaaaay further and
-actually made it multipurpose (versus copping out and making it a one pager like I
-did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
-its Sass sources.
+* Site: http://getskel.com
+* Documentation: http://getskel.com/docs#baseline
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Credits
 
-(* = Not included)
+* FontAwesome (http://fontawesome.io | (c) Dave Gandy | Font: SIL OFL 1.1, CSS: MIT license)
+* jQuery (http://jquery.com | (c) 2005, 2014 jQuery Foundation, Inc. and other contributors | MIT license)
+* Sass (http://sass-lang.com)
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+## License
 
-AJ
-n33.co @n33co dribbble.com/n33
+Baseline is released under the MIT license.
 
+Copyright (c) n33
 
-Credits:
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		skel (getskel.com)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

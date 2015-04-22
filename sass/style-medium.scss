@@ -1,14 +1,7 @@
 @import 'vars';
 @import 'mixins';
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-$size-wrapper-pad-tb: 4.5em;
-$size-wrapper-pad-lr: 2.5em;
+/* skel-baseline v2.0.3 | (c) n33 | getskel.com | MIT licensed */
 
 /* Basic */
 
@@ -16,71 +9,84 @@ $size-wrapper-pad-lr: 2.5em;
 		font-size: 12pt;
 	}
 
-/* Spotlight */
+/* Header */
 
-	.spotlight {
-		background-attachment: scroll;
-		height: auto;
-
-		.image.main {
-			display: block;
-			margin: 0;
-			max-height: 40vh;
-			overflow: hidden;
-		}
-
-		.content {
-			background-color: $color-bg;
-			border-width: 0 !important;
-			border-top-width: 0.35em !important;
-			bottom: auto !important;
-			left: auto !important;
-			padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - $size-element-margin) $size-wrapper-pad-lr !important;
-			position: relative;
-			right: auto !important;
-			text-align: center;
-			top: auto !important;
-			width: 100% !important;
-		}
-
-		.goto-next {
-			display: none;
-		}
+	//body {
+	#skel-layers-wrapper {
+		padding-top: 0;
 	}
 
-/* Wrapper */
-
-	.wrapper {
-		padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - $size-element-margin) $size-wrapper-pad-lr;
+	#header {
+		display: none;
 	}
 
 /* Banner */
 
 	#banner {
-		background-attachment: scroll;
+		padding: 6em 2em;
+	}
 
-		.goto-next {
-			height: 7em;
-		}
+/* Layers */
 
-		.content {
-			padding: ($size-wrapper-pad-tb * 2) 0;
-			text-align: center;
+	#navButton {
+		.toggle {
+			@include icon('\f0c9');
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
 
-			header {
+			&:before {
+				background: rgba(144,144,144,0.65);
+				border-radius: $size-border-radius;
+				color: #fff;
 				display: block;
-				margin: 0 0 $size-element-margin 0;
+				font-size: 16px;
+				height: 2.25em;
+				left: 0.5em;
+				line-height: 2.25em;
+				position: absolute;
 				text-align: center;
-			}
-
-			.image {
-				margin: 0;
+				top: 0.5em;
+				width: 3.5em;
 			}
 		}
 	}
 
-/* Footer */
+	#navPanel {
+		background: #444;
+		color: #fff;
 
-	#footer {
-		padding: $size-wrapper-pad-tb 0;
+		nav {
+			padding: 0.5em 1.25em;
+
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+
+				li {
+					padding: 0;
+
+					&:first-child {
+						a:not(.button), span:not(.button) {
+							border-top: 0;
+						}
+					}
+
+					a:not(.button), span:not(.button) {
+						border-top: solid $size-border-width #555;
+						color: #fff;
+						display: block;
+						padding: 0.75em 0;
+						text-decoration: none;
+					}
+				}
+			}
+
+			.button {
+				width: 100%;
+			}
+		}
 	}

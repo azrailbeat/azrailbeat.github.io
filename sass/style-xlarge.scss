@@ -1,14 +1,16 @@
 @import 'vars';
 @import 'mixins';
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* skel-baseline v2.0.3 | (c) n33 | getskel.com | MIT licensed */
 
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 13pt;
+		font-size: 11pt;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 7em 0;
 	}
